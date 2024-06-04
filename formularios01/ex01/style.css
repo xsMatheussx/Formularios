@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(0, 55, 128);
+}
+
+#nome {
+    text-align: center;
+}
+#titulo {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+#email {
+    text-align: center;
+    margin: 10px;
+}
+#assunto {
+    text-align: center;
+    margin: 10px;
+}
+#mensagem{
+    text-align: center;
+    margin: 10px;
+}
+#botaoenviar {
+    text-align: center;
+    
+}

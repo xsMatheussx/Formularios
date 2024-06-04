@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(10, 70, 40);
+}
+#nome {
+    text-align: center;
+    padding: 10px;
+}
+#senha {
+    text-align: center;
+    padding: 10px;
+}
+#confirmacaosenha {
+    text-align: center;
+    padding: 10px;
+}
+#email {
+    text-align: center;
+    padding: 10px;
+}
+#datanascimento {
+    text-align: center;
+    padding: 10px;
+}
+#botaoenviar{
+    text-align: center;
+    padding: 10px;
+}
+#titulo {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}

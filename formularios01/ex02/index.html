@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/submit" method="post">
+    <h1 id="titulo">Formulário 2</h1>
+
+    <div id="nome">
+        <input type="text" name="name" placeholder="Nome:" required minlength="3" maxlength="15">
+        <input type="text" name="name" placeholder="Sobrenome: " required minlength="3" maxlength="15">
+    </div>
+
+    <div id="senha">
+        <input type="password" name="password" placeholder="Senha: " required minlength="8" id="senha1">
+    </div>
+
+    <div id="confirmacaosenha">
+        <input type="password" name="confirmacaopassword" placeholder="Confirme sua senha: " required min="8" id="confirmarsenha1">
+    </div>
+
+    <div id="email">
+        <input type="email" name="email" placeholder="Email: " required>
+    </div>
+
+    <div id="datanascimento">
+        <input type="date" name="datanascimento" placeholder="Data de nascimento" required>
+    </div>
+
+    <div id="botaoenviar">
+        <button type="submit" id="botao" onclick="validarsenha()">Enviar</button>
+    </div>
+
+</form>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
